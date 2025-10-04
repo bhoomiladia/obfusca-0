@@ -1,0 +1,120 @@
+# LLVM Intermediate Files
+*.ll
+*.bc
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.bin
+
+# PDF Reports
+*.pdf
+
+# Temporary directories
+backend/temp_work/
+backend/uploads/
+__pycache__/
+*.tmp
+*.temp
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Build directories
+backend/build/
+build/
+dist/
+*.egg-info/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration files with sensitive data
+config.json
+secrets.ini
+.env
+.env.local
+.env.production
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.coverage
+*,cover
+
+# Profiling data
+.prof
+
+# LLVM specific cache
+.llvm_cache/
+
+# Backup files
+backup/
+*.bak
+*.backup
+
+# Large files that shouldn't be in git
+*.so
+*.dylib
+*.dll
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+.vscode/
+# Documentation generated files
+docs/_build/
+
+# Test files (if any generated)
+test/temp_work/
+test/*.exe
+test/*.ll
+test/*.bc
+test/*.o
+
+# Python cache directories
+backend/__pycache__/
+frontend/__pycache__/
+python/__pycache__/
+test/__pycache__/
